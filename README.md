@@ -8,6 +8,7 @@ public class Main {
                 {2, 5, 4},
                 {1, 7, 6}
         };
+
         sortDiagonal(array);
 
         for (int i = 0; i < array.length; i++) {
@@ -32,5 +33,3 @@ public class Main {
         }
     }
 }
-
-
