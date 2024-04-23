@@ -8,7 +8,9 @@ public class Main {
                 {2, 5, 4},
                 {1, 7, 6}
         };
+
         sortDiagonal(array);
+
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.print(array[i][j] + " ");
@@ -16,8 +18,10 @@ public class Main {
             System.out.println();
         }
     }
+
     public static void sortDiagonal(int[][] array) {
         int n = array.length;
+
         for (int i = 0; i < n - 1; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (array[i][i] > array[j][j]) {
@@ -29,4 +33,5 @@ public class Main {
         }
     }
 }
+
 
